@@ -22,7 +22,7 @@ O foco deste teste é a implementação de uma lista de tarefas, onde você deve
 
 ## O que fazer?
 
-1) Recupere as tarefas iniciais via GET da URL [https://raw.githubusercontent.com/EnkiGroup/DesafioReactEncontact2021/main/data/todos.json](https://raw.githubusercontent.com/EnkiGroup/DesafioReactEncontact2021/main/data/todos.json).
+1) Recupere as tarefas iniciais via GET da URL [http://my-json-server.typicode.com/EnkiGroup/DesafioReactEncontact2021/todos](http://my-json-server.typicode.com/EnkiGroup/DesafioReactEncontact2021/todos).
 2) No [projeto Todo MVC](https://todomvc.com) é disponibilizado um template estilizado da lista de tarefas. Para testar suas habilidades com folhas de estilos, gostariamos que você mesmo crie seu próprio estilo.
 3) Adicione uma tarefa na lista;
     - Para adicionar, escrever o título da tarefa e precionar enter para registrar.
