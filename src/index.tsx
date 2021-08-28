@@ -7,14 +7,15 @@ import {
 } from 'react-router-dom';
 import reportWebVitals from "./reportWebVitals";
 import App from './components/App';
+import Home from './pages/Home';
 
 ReactDOM.render(
   <React.StrictMode>
     <Router>
       <App>
         <Switch>
-          <Route exact path="/">
-            <h1>home</h1>
+          <Route path="/:filter?">
+            <Home />
           </Route>
         </Switch>
       </App>
