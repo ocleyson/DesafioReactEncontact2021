@@ -17,11 +17,11 @@ function MainInput() {
         
         event.preventDefault()
 
-        setTasks([...tasks, {
+        setTasks([{
             id: uuidv4(),
             title: task,
             isDone: false
-        }])
+        }, ...tasks])
 
         setTask('')
         setAreTasksDone(false)
