@@ -1,8 +1,10 @@
 import { useState, useEffect } from 'react'
 import { TaskContext, ITask } from '../../contexts/TaskContext';
 import MainInput from '../MainInput'
+import TaskList from '../TaskList'
 import { Container, Title } from './styles'
 import axios from 'axios';
+import TaskFooter from '../TaskFooter';
 
 function TaskContainer() {
     const [tasks, setTasks] = useState<ITask[]>([])
@@ -23,6 +25,8 @@ function TaskContainer() {
                 <Title>Todos</Title>
 
                 <MainInput />
+                <TaskList />
+                <TaskFooter />
             </Container>
         </TaskContext.Provider>
     );
